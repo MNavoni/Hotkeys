@@ -1,5 +1,4 @@
-﻿;agregar excepcion reiniciar script
-
+﻿;Warning, spanish code below
 #NoEnv
 SendMode Input
 SetWorkingDir %A_ScriptDir%
@@ -17,7 +16,6 @@ XButton1::
     send, {Browser_Back}
 	return
 }
-;XButton1 Up::SetTimer, WaitForRelease, off
 
 XButton2::
 {
@@ -62,6 +60,7 @@ F13 & MButton::
     return
 }
 
+;Warning, stolen code below
 ArmarListaSalidaAudio()
 {
 ; http://www.daveamenta.com/2011-05/programmatically-or-command-line-change-the-default-sound-playback-device-in-windows-7/
