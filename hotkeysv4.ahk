@@ -29,10 +29,10 @@ F13::send, {Ctrl Down}w{Ctrl Up}
 XButton1 & XButton2::send, ^t
 XButton1 & WheelDown::send, {WheelDown 5}
 XButton1 & WheelUp::send, {WheelUp 5}
-XButton1 & LButton::send, ^+{Tab}
+XButton1 & LButton::send, ^+{Tab}			;Para una mejor experiencia configurar el navegador a no cambiar entre pestañas segun ultima visita
 XButton1 & RButton::send, ^{Tab}
 XButton1 & MButton::CambiarSalidaAudio(salidas,2)
-XButton1 & F13::send, ^+t
+XButton1 & F13::send, ^+t  				;El boton "cambio de sensibilidad" está configurado a F13 en el panel de mi mouse logitech
 
 XButton2 & XButton1::send, {f5}
 XButton2 & WheelDown::send, {Volume_Down}
